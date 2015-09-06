@@ -1,0 +1,39 @@
+
+<html>
+	<head> 
+		<title> Kiana's First Web Page </title> 
+		<link rel="stylesheet" type="text/css" href="hello.css"> 
+	</head>
+	<body>
+		<h1> <em>Hello World</em> </h1>
+		<h2 class='special'>
+			My name is <span id="user-name">Kiana Woodward </span> </h2>
+		<p class='special' >
+			This is My Intro Paragraph!
+		</p>
+		<p> 
+			<b> My goal</b> is to learn how to code like a ninja. 
+		</p>
+		<p> These are some things I like. </p>
+		<p> I like: </p>
+		<ul>
+			<li> <a href="https://en.wikipedia.org/wiki/Surfing" target="_blank">Surfing</li>
+			<li>Bouncing On <a href="https://en.wikipedia.org/wiki/Trampoline" target="_blank">Trampolines</a> </li>
+			<li>Writing Code </li>
+			<li id='railsbridge'>RailsBridge </li>
+		</ul>
+		<input type='password' name='Enter Your Password' value='kiana'> Enter Your Password
+ 		
+		<p class='special'> Yay HTML 5! </p>
+		<script type="text/javascript">
+</script>
+<script type="text/javascript">
+  function replaceName() {
+    var myNewName = window.prompt('Pick a new name!');
+    document.getElementById('user-name').innerHTML = myNewName;
+  }
+
+  document.onclick = replaceName;
+</script>
+	</body>
+</html>

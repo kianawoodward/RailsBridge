@@ -1,0 +1,37 @@
+h1 {
+				font-size: 20px;
+				border-bottom: 5px solid #9D33E3;
+				text-shadow: 2px 2px #F2F2F2;
+			}
+
+h2 {
+	text-shadow: 10px 10px #F78181;
+	
+}
+p {
+	padding: 8px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+body {
+    background-color: papayaWhip;
+}
+
+.special {
+	font-size: 30px;
+	background-color: AliceBlue;
+	border: 1px solid green;
+
+}
+
+#railsbridge {
+	background-color: #CEF6CE;
+}
+
+#user-name {
+	font-weight: bold;
+}
